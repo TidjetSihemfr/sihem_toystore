@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+layouts<!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 <head>
   <meta charset="utf-8">
@@ -11,6 +11,11 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <!-- TODO: Add GTM head script here -->
 </head>
+
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5CQX6VH3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <body class="bg-light">
   <!-- TODO: Add GTM noscript here -->
   {% include header.html %}
